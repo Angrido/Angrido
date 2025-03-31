@@ -1,16 +1,24 @@
-## Hi there 👋
+### 👋 Hi, I'm **Angrido**!  
 
-<!--
-**Angrido/Angrido** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! 🚀 Here you'll find projects, experiments, and lots of code! 💻  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔥 About Me  
+- 💡 Network technician and **Cybersecurity** enthusiast.  
+- 🎨 In my free time, I enjoy **Web & Graphic Design** and **Video Games**.  
+- 🚀 Always looking for new challenges and exciting projects.  
+- 🌱 Currently diving deeper into **Cybersecurity and Advanced Scripting**.  
+
+---
+
+### 📌 Technologies & Tools  
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![CMD](https://img.shields.io/badge/CMD-000000?style=for-the-badge&logo=windows-terminal&logoColor=white)
+
+---
+
+### 📈 GitHub Stats  
+![Angrido's GitHub stats](https://github-readme-stats.vercel.app/api?username=Angrido&show_icons=true&theme=tokyonight)
