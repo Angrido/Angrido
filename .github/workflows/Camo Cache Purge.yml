@@ -1,49 +1,36 @@
-name: "Camo Cache Purge for README"
+name: Camo Cache Purge for README
 
-on:
-  push:
-    branches:
-      - main  # Trigger for push events on the main branch (change to your branch if needed)
-  pull_request:
-    branches:
-      - main  # Trigger for pull request events on the main branch (change to your branch if needed)
-  schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight (UTC), you can change the schedule to your preference
+on: push
 
 jobs:
-  purge-cache:
+  check-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4.2.2
+    - name: Checkout repository
+      uses: actions/checkout@v4.2.2
 
-      - name: Display README.md contents (for debugging)
-        run: |
-          cat README.md
+    - name: Check if README.md exists
+      run: |
+        if [ ! -f README.md ]; then
+          echo "README.md not found!"
+          exit 1
+        fi
+        
+    - name: Extract URLs from README.md
+      id: extract-urls
+      run: |
+        urls=$(grep -Eo '(http|https)://[^/"]+' README.md)
+        if [ -z "$urls" ]; then
+          echo "No URLs found in README.md"
+          exit 1
+        fi
+        echo "::set-output name=urls::$urls"
 
-      - name: Fetch the URLs of all camo images in the README.md file
-        run: |
-          # Check if README.md exists
-          if [ ! -f README.md ]; then
-            echo "README.md not found!"
-            exit 1
-          fi
-          
-          # Fetch URLs of all camo images in the README.md file
-          urls=$(grep -oP '(http|https)://camo.githubusercontent.com[^\"]+' README.md)
-
-          # Debugging output
-          echo "Found URLs: $urls"
-
-          # Check if any URLs were found
-          if [ -z "$urls" ]; then
-            echo "No camo URLs found in README.md"
-            exit 1
-          fi
-
-          # Purge each found URL
-          while IFS= read -r line; do
-            echo "Purging: $line"
-            curl -X PURGE $line
-          done <<< "$urls"
+    - name: Purge URLs
+      run: |
+        urls=${{ steps.extract-urls.outputs.urls }}
+        for url in $urls; do
+          echo "Purging $url"
+          curl -X PURGE $url
+        done
