@@ -3,7 +3,7 @@ name: Refresh Badges Cache
 on:
   push:
     branches:
-      - main  # O qualsiasi altro branch su cui vuoi che venga eseguito il job
+      - main
 
 jobs:
   purge-badges-cache:
@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@4.2.2
 
       - name: Purge badges cache
         uses: b3b00/refreshBadgesAction@v1.0.7
         with:
-          repository: 'Angrido/Angrido'  # Sostituisci con il nome del tuo repository
-          branch: 'main'  # O qualsiasi altro branch dove vuoi fare la purga
+          repository: 'Angrido/Angrido' 
+          branch: 'main'
