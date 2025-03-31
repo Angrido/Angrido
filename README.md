@@ -14,11 +14,11 @@ Welcome to my GitHub profile! 🚀 Here you'll find projects, experiments, and l
 
 ### 📌 Technologies & Tools  
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![CMD](https://img.shields.io/badge/CMD-000000?style=for-the-badge&logo=windows-terminal&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](#)
+[![CMD](https://img.shields.io/badge/CMD-000000?style=for-the-badge&logo=windows-terminal&logoColor=white)](#)
 
 ---
 
 ### 📈 GitHub Stats  
-![Angrido's GitHub stats](https://github-readme-stats.vercel.app/api?username=Angrido&show_icons=true&theme=tokyonight)
+[![Angrido's GitHub stats](https://github-readme-stats.vercel.app/api?username=Angrido&show_icons=true&theme=tokyonight)](#)
