@@ -1,36 +1,20 @@
-name: Camo Cache Purge for README
+name: Refresh Badges Cache
 
-on: push
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  check-readme:
+  purge-badges-cache:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4.2.2
+      - name: Checkout repository
+        uses: actions/checkout@4.2.2
 
-    - name: Check if README.md exists
-      run: |
-        if [ ! -f README.md ]; then
-          echo "README.md not found!"
-          exit 1
-        fi
-        
-    - name: Extract URLs from README.md
-      id: extract-urls
-      run: |
-        urls=$(grep -Eo '(http|https)://[^/"]+' README.md)
-        if [ -z "$urls" ]; then
-          echo "No URLs found in README.md"
-          exit 1
-        fi
-        echo "::set-output name=urls::$urls"
-
-    - name: Purge URLs
-      run: |
-        urls=${{ steps.extract-urls.outputs.urls }}
-        for url in $urls; do
-          echo "Purging $url"
-          curl -X PURGE $url
-        done
+      - name: Purge badges cache
+        uses: Angrido/Purge-Camo-Cache@v1.0.0
+        with:
+          repository: 'Angrido/Angrido' 
+          branch: 'main'
