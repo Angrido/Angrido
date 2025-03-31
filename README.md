@@ -22,3 +22,8 @@ Welcome to my GitHub profile! 🚀 Here you'll find projects, experiments, and l
 
 ### 📈 GitHub Stats  
 [![Angrido's GitHub stats](https://github-readme-stats.vercel.app/api?username=Angrido&show_icons=true&theme=tokyonight)](#)
+
+---
+
+### 🛡️ TryHackMe Stats
+[![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/Angrido.png)](https://tryhackme.com/p/Angrido)
