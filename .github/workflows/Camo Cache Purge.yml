@@ -1,0 +1,29 @@
+name: "Camo Cache Purge for README"
+
+on:
+  push:
+    branches:
+      - main  # Trigger for push events on the main branch (change to your branch if needed)
+  pull_request:
+    branches:
+      - main  # Trigger for pull request events on the main branch (change to your branch if needed)
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight (UTC), you can change the schedule to your preference
+
+jobs:
+  purge-cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Purge camo cache
+        run: |
+          # Fetch the URLs of all camo images in the README.md file
+          urls=$(grep -oP '(http|https)://camo.githubusercontent.com[^\"]+' README.md)
+
+          # Purge each found URL
+          while IFS= read -r line; do
+            curl -X PURGE $line
+          done <<< "$urls"
