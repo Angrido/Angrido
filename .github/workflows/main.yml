@@ -1,9 +1,20 @@
-            - name: badges-cache-purge
-  # You may pin to the exact commit or the version.
-  # uses: b3b00/refreshBadgesAction@70ac08f55356ad0b20edcef1f6f09fb017e11a33
-  uses: b3b00/refreshBadgesAction@v1.0.7
-  with:
-    # The repository to purge the cache for in the form of <user>/<repo>
-    repository: 
-    # The branch where the purge must take place. default is main
-    branch: # optional
+name: Refresh Badges Cache
+
+on:
+  push:
+    branches:
+      - main  # O qualsiasi altro branch su cui vuoi che venga eseguito il job
+
+jobs:
+  purge-badges-cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Purge badges cache
+        uses: b3b00/refreshBadgesAction@v1.0.7
+        with:
+          repository: 'Angrido/Angrido'  # Sostituisci con il nome del tuo repository
+          branch: 'main'  # O qualsiasi altro branch dove vuoi fare la purga
