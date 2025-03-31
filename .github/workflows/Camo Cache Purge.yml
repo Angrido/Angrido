@@ -16,14 +16,34 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4.2.2
 
-      - name: Purge camo cache
+      - name: Display README.md contents (for debugging)
         run: |
-          # Fetch the URLs of all camo images in the README.md file
+          cat README.md
+
+      - name: Fetch the URLs of all camo images in the README.md file
+        run: |
+          # Check if README.md exists
+          if [ ! -f README.md ]; then
+            echo "README.md not found!"
+            exit 1
+          fi
+          
+          # Fetch URLs of all camo images in the README.md file
           urls=$(grep -oP '(http|https)://camo.githubusercontent.com[^\"]+' README.md)
+
+          # Debugging output
+          echo "Found URLs: $urls"
+
+          # Check if any URLs were found
+          if [ -z "$urls" ]; then
+            echo "No camo URLs found in README.md"
+            exit 1
+          fi
 
           # Purge each found URL
           while IFS= read -r line; do
+            echo "Purging: $line"
             curl -X PURGE $line
           done <<< "$urls"
