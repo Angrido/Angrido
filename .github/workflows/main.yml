@@ -8,7 +8,8 @@ on:
 jobs:
   purge-badges-cache:
     runs-on: ubuntu-latest
-
+    
+    steps:
       - name: Purge badges cache
         uses: Angrido/Purge-Camo-Cache@v1.0.0
         with:
