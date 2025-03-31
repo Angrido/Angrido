@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Purge badges cache
+      - name: Purge Camo Cache
         uses: Angrido/Purge-Camo-Cache@v1.0.0
         with:
           repository: 'Angrido/Angrido' 
