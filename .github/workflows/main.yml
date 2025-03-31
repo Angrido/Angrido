@@ -1,4 +1,5 @@
-name: Purge Camo Cache
-  # Pin to the specific commit for exact consistency (optional but recommended for stability).
-  # uses: Angrido/Purge-Camo-Cache@644b4275bf80ff1ca2a2891fc13ba15c3b217d88
-  uses: Angrido/Purge-Camo-Cache@v1.0.0
+  - name: refresh badges
+      uses: Angrido/Purge-Camo-Cache@v1.0.0
+      with:
+        repository : 'b3b00/csly'
+        branch: dev
