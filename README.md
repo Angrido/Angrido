@@ -22,8 +22,6 @@ Welcome to my GitHub profile! 🚀 Here you'll find projects, experiments, and l
 
 ## 📊 GitHub Stats
 
-[![Angrido's GitHub stats](https://github-readme-stats.vercel.app/api?username=Angrido&show_icons=true&theme=dark&hide_border=true)](#)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Angrido&layout=compact&theme=dark&hide_border=true)](#)
 
 ---
