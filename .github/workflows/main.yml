@@ -8,12 +8,11 @@ on:
     - cron: '0 */2 * * *'
 
 jobs:
-  purge-badges-cache:
+  purge-camo:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Purge Camo Cache
+      - name: Run purge camo
         uses: Angrido/Purge-Camo-Cache@v1.2.0
         with:
-          repository: 'Angrido/Angrido' 
-          branch: 'main'
+          repository: Angrido/Angrido
+          branch: main
