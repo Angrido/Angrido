@@ -13,7 +13,7 @@ jobs:
     
     steps:
       - name: Purge Camo Cache
-        uses: Angrido/Purge-Camo-Cache@v1.1.1
+        uses: Angrido/Purge-Camo-Cache@v1.2.0
         with:
           repository: 'Angrido/Angrido' 
           branch: 'main'
