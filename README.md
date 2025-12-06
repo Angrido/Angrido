@@ -18,11 +18,6 @@ Welcome to my GitHub profile! 🚀 Here you'll find projects, experiments, and l
 [![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](#)
 [![CMD](https://img.shields.io/badge/CMD-000000?style=for-the-badge&logo=windows-terminal&logoColor=white)](#)
 
----
-
-## 📊 GitHub Stats
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Angrido&layout=compact&theme=dark&hide_border=true)](#)
 
 ---
 
