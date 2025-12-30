@@ -32,7 +32,7 @@ I'm **Lucio Gigliofiorito**, a tech enthusiast based in **Italy** 🇮🇹.
 ### 🛠️ Tech Stack & Tools
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,powershell,bash,linux,windows,html,css,js,git,github,vscode,kali" alt="My Skills" />
+  <img src="https://skillicons.dev/icons?i=python,powershell,bash,linux,windows,html,css,js,git,github,vscode,kali,docker" alt="My Skills" />
 </div>
 
 ---
