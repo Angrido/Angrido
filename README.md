@@ -48,18 +48,6 @@ Here are my most popular open-source repositories (Live Stats):
 
 ---
 
-### 🛡️ Cybersecurity Activities
-
-Tracking my progress on **TryHackMe**.
-
-<div align="center">
-  <a href="https://tryhackme.com/p/Angrido">
-    <img src="https://tryhackme-badges.s3.amazonaws.com/Angrido.png" alt="TryHackMe Badge" />
-  </a>
-</div>
-
----
-
 <div align="center">
   <small>Visitor Count</small><br>
   <img src="https://komarev.com/ghpvc/?username=Angrido&style=flat-square&color=green" alt="Visitor Count" />
