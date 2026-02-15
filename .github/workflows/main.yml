@@ -1,4 +1,4 @@
-name: Refresh Badges Cache
+name: Purge Camo Cache
 
 on:
   push:
@@ -8,11 +8,9 @@ on:
     - cron: '0 */2 * * *'
 
 jobs:
-  purge-camo:
+  purge-camo-cache:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Run purge camo
-        uses: Angrido/Purge-Camo-Cache@v1.2.0
-        with:
-          repository: Angrido/Angrido
-          branch: main
+      - name: Purge Camo Cache
+        uses: Angrido/Purge-Camo-Cache@v1.3.0
