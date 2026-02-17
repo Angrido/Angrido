@@ -43,8 +43,8 @@ Here are my most popular open-source repositories (Live Stats):
 
 | Project | Description | Stars |
 | :--- | :--- | :--- |
-| [**Flipper-WiFi-Grabber**](https://github.com/Angrido/Flipper-WiFi-Grabber) | BadUSB payload to extract WiFi passwords from Windows and send them via Discord Webhook. | ![Stars](https://img.shields.io/github/stars/Angrido/Flipper-WiFi-Grabber?style=social) |
 | [**Lidarr-YouTube-Downloader**](https://github.com/Angrido/Lidarr-YouTube-Downloader) | A bridge between Lidarr and YouTube to automatically fetch missing albums. | ![Stars](https://img.shields.io/github/stars/Angrido/Lidarr-YouTube-Downloader?style=social) |
+| [**Flipper-WiFi-Grabber**](https://github.com/Angrido/Flipper-WiFi-Grabber) | BadUSB payload to extract WiFi passwords from Windows and send them via Discord Webhook. | ![Stars](https://img.shields.io/github/stars/Angrido/Flipper-WiFi-Grabber?style=social) |
 
 ---
 
