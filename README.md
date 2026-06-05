@@ -62,11 +62,3 @@ Here are my most popular open-source tools (live stats):
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Angrido&theme=chartreuse-dark&hide_border=true&area=true" alt="Contribution Graph"/>
 </div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Angrido&theme=matrix&no-frame=true&row=1&column=7&margin-w=15" alt="Trophies"/>
-</div>
