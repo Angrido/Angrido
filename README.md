@@ -54,11 +54,3 @@ Here are my most popular open-source tools (live stats):
 | [**Flipper-WiFi-Grabber**](https://github.com/Angrido/Flipper-WiFi-Grabber) | BadUSB payload to extract WiFi passwords from Windows and send them via Discord Webhook | ![Stars](https://img.shields.io/github/stars/Angrido/Flipper-WiFi-Grabber?style=social) |
 
 > 💡 Explore more on my [repositories page](https://github.com/Angrido?tab=repositories)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Angrido&theme=chartreuse-dark&hide_border=true&area=true" alt="Contribution Graph"/>
-</div>
