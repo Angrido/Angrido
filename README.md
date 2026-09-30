@@ -16,8 +16,6 @@
       <img src="https://img.shields.io/badge/LinkedIn-Lucio%20Gigliofiorito-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
   </p>
-  
-  <img src="https://komarev.com/ghpvc/?username=Angrido&style=flat-square&color=20C20E" alt="Profile views"/>
 </div>
 
 ---
