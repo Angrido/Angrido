@@ -35,7 +35,13 @@ I'm **Lucio Gigliofiorito**, a tech enthusiast based in **Italy** 🇮🇹.
 ## 🛠️ Tech Stack & Tools
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,powershell,bash,linux,windows,html,css,js,git,github,vscode,kali,docker" alt="My Skills" />
+  <img src="https://skillicons.dev/icons?i=python,kotlin,ts,js,php,bash,powershell" alt="Languages" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=flask,react,nextjs,nodejs,express,tailwind,html,css,wordpress" alt="Frameworks" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=androidstudio,gradle,firebase,docker,git,github,vscode" alt="Platforms & Tools" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=linux,kali,windows" alt="Systems" />
   <br/>
   <img src="https://img.shields.io/badge/Network-Security-20C20E?style=flat-square&logo=cisco&logoColor=white" alt="Network Security"/>
   <img src="https://img.shields.io/badge/OSINT-Open%20Source%20Intelligence-blue?style=flat-square" alt="OSINT"/>
